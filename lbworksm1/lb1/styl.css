@@ -1,0 +1,37 @@
+body {
+    background-color: #e3f2ff;
+}
+.table1{   
+    text-align: left;
+    border-collapse: collapse; /* Злиття меж таблиці*/ 
+    margin-right: auto; /* Вирівнювання таблиці по лівому краю */   
+}
+.table2{  
+    text-align: right;
+    border-collapse: collapse; /* Злиття меж таблиці*/ 
+    margin-left: auto; /* Вирівнювання таблиці по правому краю */
+}
+div{
+     background-color: #d8eafa;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+header{
+    text-align: center;
+    background-color: #d8eafa; 
+}
+#aboutlink{
+    text-align: right;
+    font-size: 16px;
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+th, td {
+  padding: 4px;  
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

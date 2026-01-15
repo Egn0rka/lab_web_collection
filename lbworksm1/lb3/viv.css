@@ -1,0 +1,96 @@
+.center-img {
+    /* 1. Робимо зображення блоковим, щоб працювало margin: auto */
+    display: block;
+    /* 2. Автоматичні поля зліва і справа для центрування */
+    margin-left: auto;
+    margin-right: auto;
+    /* 3. Необхідно також задати ширину (не 100%), інакше воно займе весь простір і центрувати не буде що */
+    width: 70%;
+}
+.float-left {
+    float: left; /* Вирівняти зображення по лівому краю */
+    margin-right: 15px; /* Додати відступ від зображення до тексту справа */
+}
+
+.float-right {
+    float: right; /* Вирівняти зображення по правому краю */
+    margin-left: 15px; /* Додати відступ від зображення до тексту зліва */
+}
+body {
+    font-family: Arial, sans-serif; /* Встановлення шрифту для всього тіла документа */
+    line-height: 1.6; /* Поліпшення читабельності тексту */
+    margin: 20px; /* Відступи навколо всього вмісту сторінки */
+    background-color: #d8f6ff; /* Світлий фон для всієї сторінки */
+    color: #333; /* Темний текст для кращої контрастності */
+    text-shadow: 2px 2px 5px rgb(169, 213, 248); /* Тень справа, вниз, с размытием и черным цветом */
+
+}
+p
+{    text-align: justify; /* Вирівнювання тексту по ширині */
+    text-indent: 20px; /* Відступ першого рядка абзацу */
+    margin-bottom: 15px; /* Відступ між абзацами */
+    font-size: 18px; /* Розмір шрифту для кращої читабельності */
+  }
+h1, h2, h3 {
+    color: #005f99; /* Колір заголовків */
+    margin-top: 20px; /* Відступ зверху для заголовків */
+    margin-bottom: 10px; /* Відступ знизу для заголовків */ 
+    font-family: 'Trebuchet MS', sans-serif; /* Шрифт для заголовків */
+    text-align: left; /* Центрування заголовків */
+  }
+a {
+    color: #0066cc; /* Колір посилань */
+    text-decoration: none; /* Прибрати підкреслення з посилань */ 
+  }
+a:hover {
+    color: #013b75; /* Колір при наведенні */
+  text-decoration: underline; /* Додаємо підкреслення при наведенні */
+  }
+div {
+    margin-bottom: 20px; /* Відступ знизу для всіх блоків */
+    padding: 10px; /* Внутрішні відступи для всіх блоків */
+    background-color: #d8f6ff; /* Світлий фон для блоків */
+    border-radius: 5px; /* Закруглення кутів блоків */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Легка тінь для блоків */
+   
+  }
+   text-align:center
+   table {
+            width: 60%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #4A90E2; /* Колір Аквіного волосся */
+        }
+        th, td {
+            padding: 12px 15px;
+            border: 1px solid #B3E5FC; /* Світліша рамка */
+            text-align: left;
+        }
+        thead th {
+            background-color: #4A90E2; /* Основний "Аквін" колір */
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #E3F2FD; /* Світло-блакитне чергування */
+        }
+        tbody tr:hover {
+            background-color: #BBDEFB; /* Ефект наведення */
+        }
+        .max-level {
+            font-weight: bold;
+            color: #2196F3; /* Синій для рівня MAX */
+        }
+        .low-stat {
+            font-weight: bold;
+            color: #FF5252; /* Червоний для низьких статів */
+        } 

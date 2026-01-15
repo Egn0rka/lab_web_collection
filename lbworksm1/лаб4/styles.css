@@ -1,0 +1,43 @@
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #6f7e8d;
+    color: white;
+    text-align: center;
+   
+    font-size: 18px;
+}
+ footer {
+    background-color: #6f7e8d;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 18px;
+}
+
+
+#content-area {
+    display: flex; 
+    width: 100%;
+    min-height: 400px; 
+}
+
+
+.slider-left, .slider-right {
+    width: 150px; 
+    background-color: #e0e0e0;
+    padding: 15px;
+    flex-shrink: 0;
+}
+
+
+.main-content {
+    flex-grow: 1; 
+    background-color: #f8f8f8;
+    padding: 15px;
+}

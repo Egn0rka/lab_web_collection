@@ -1,0 +1,125 @@
+/* Загальні стилі */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+/* Хедер */
+#header {
+    background-color: #84fc84;
+    height: 150px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+/* Фолд */
+#fold {
+    
+    background-color: #f8ae71;
+    height: 550px;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Основна частина */
+#main {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(252, 156, 132);
+    padding: 20px 0;
+}
+
+
+#portfolio {
+     width: 90%; 
+    margin-top: 25px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(252, 156, 132);
+}
+
+#portfolio h2 {
+    margin: 0;
+    padding: 10px;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-items: center;
+}
+
+.portfolio-item {
+    background-color: #555;
+    color: white;
+    width: 100%;
+    max-width: 360px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#dop_image {
+    width: 120%; 
+    background-color: #54595e;
+    border: 4px solid gray;
+    border-radius: 5px;
+    margin-top: 25px;
+    padding: 15px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.dop-image-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.dop-item {
+    background-color: #777;
+    color: white;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#more_text, #more_text2 {
+    width: 100%;
+    margin-top: 15px;
+    padding: 20px;
+    text-align: justify;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+#more_text {
+    background-color: rgb(252, 156, 132);
+}
+
+#more_text2 {
+    background-color: #f8ae71;
+}
+
+
+#footer {
+    width: 100%;
+    background-color: #35b835;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 18px;
+    
+}
+
+
