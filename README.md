@@ -1,5 +1,7 @@
 # lab_web_collection
 All laboratory work on web programming for the third year of university is stored here.
+<details>
+    <summary>View work assignments</summary>
    <h3>Work 1</h3>
 <div>
 Topic: Creating WEB pages in HTML<br>
@@ -42,3 +44,4 @@ Task 2: Write a script that, when the user enters the amount of money in the wal
 Task 3: Write a script that asks for 2 numbers and outputs more of them.<br>
 Task 4: Write a script that asks the user for the length of a circle and the perimeter of a square. Determine whether such a circle can fit into the specified square.<br>
 </div>
+</details>
