@@ -1,6 +1,6 @@
 # lab_web_collection
 All laboratory work on web programming for the third year of university is stored here.
-    Work 1
+   <div> Work 1</div>
 Topic: Creating WEB pages in HTML
 Goal: To familiarize yourself with and study the principles of developing WEB pages in HTML.
 Task: Develop two WEB pages in HTML for a commercial enterprise and the author.
